@@ -1,5 +1,5 @@
 # How To View This Project: 
-### You can view this project by cloning the repository and running 'npm start' in the terminal where it will display on your local network or you can view it through this netlify link: 
+### You can view this project by cloning the repository and running 'npm start' in the terminal where it will display on your local network. I have not yet gotten this site to deploy. 
 
 # Biggest Challenges Faced: 
 #### 

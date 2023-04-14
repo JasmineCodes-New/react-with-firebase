@@ -1,9 +1,21 @@
-# Getting Started with Create React App
+# How To View This Project: 
+### You can view this project by cloning the repository and running 'npm start' in the terminal where it will display on your local network or you can view it through this netlify link: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Biggest Challenges Faced: 
+#### 
+
+Implementation and the code logic were the most difficult parts for me. Handling the states and how I wanted my cart to update or delete items was hard. 
+
+This project was a lot better than my first attempt with a React shopping cart project. I actually got everything structured correctly, all my components and context finished, and the code logic was completed and made more sense this time around. 
+
+Also, making sure I had the right import statements for things like the react icons kit, toastify, etc. 
+
+I grew a lot from the challenge of doing this and actually making it work and I feel like I know React and how to use it a lot better now. 
 
 # Features of This Web App: 
-#### This is a basic shopping cart app made with React and secured with Firebase. 
+#### 
+This is a basic shopping cart app made with React and secured with Firebase. 
+
 This site is secured with firebase. There are login, register, and logout features as well as storage of those login details. 
 
 ![Screenshot 2023-04-14 130257](https://user-images.githubusercontent.com/104696443/232111522-2f562178-d8cd-4b14-a5bd-fbd34cb45c88.png)
@@ -33,6 +45,10 @@ A challenge I am still facing is the circular routes from cart to cart checkout 
 This site is also responsive to the user's info entered, displaying the full name or whatever name is entered and stored in the database along the navbar. 
 
 ![Screenshot 2023-04-14 130346](https://user-images.githubusercontent.com/104696443/232113815-608f64a8-f104-4761-b4ab-05bd011a2826.png)
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

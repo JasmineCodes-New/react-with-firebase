@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import '../css/Home.css'
+import '../index.css'
 import { Navbar } from './Navbar';
 import { Products } from './Products';
 import { auth } from '../config/Config';

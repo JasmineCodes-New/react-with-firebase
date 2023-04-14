@@ -6,6 +6,10 @@ import { ProductsContextProvider } from './context/ProductsContext';
 import { SignUp } from './components/SignUp';
 import { Login } from './components/Login';
 import { auth, db} from './config/Config';
+import { CartContextProvider } from './context/CartContext';
+import { Cart } from './components/Cart';
+import { Cashout } from './components/Cashout';
+import { NotFound } from './components/NotFound';
 
 export class App extends Component {
 
@@ -38,14 +42,20 @@ export class App extends Component {
 
     return (
       <ProductsContextProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route exact path='/' element={<Home user={this.state.user} />} /> {/* Fix here */}
-            <Route path="/addproducts" element={<AddProducts/>}/>
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/login" element={<Login />} />
-          </Routes>
-        </BrowserRouter>
+        <CartContextProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route exact path='/' element={<Home user={this.state.user} />} />
+              <Route path="/addproducts" element={<AddProducts/>}/>
+              <Route path="/signup" element={<SignUp />} />
+              <Route path="/login" element={<Login />} />
+              <Route path='/cartproducts' element={<Cart user={this.state.user} />}/>
+              <Route path='/cashout' element={<Cashout user={this.state.user} />}/>
+              <Route path='/cashout/cartproducts' element={<Cashout user={this.state.user} />}/>
+              <Route element={NotFound} />
+            </Routes>
+          </BrowserRouter>
+        </CartContextProvider>
       </ProductsContextProvider>
     )
   }

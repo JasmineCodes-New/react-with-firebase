@@ -4,6 +4,9 @@
 # Getting Started:
 ### Clone this app, run npm install, then run npm start. Make a login/register your login and then login in with that. 
 
+# Final Features:
+### Manifest.json found in the public folder along with sw.js (the service worker) - sw.js also has the code for push notifications, config for firebase in Config.js, indexedDB outside of folders along the bottom, index.js implements service worker, app.js has the routing. 
+
 # Features of This Web App: 
 #### 
 This is a basic shopping cart app made with React and secured with Firebase. 

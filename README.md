@@ -1,16 +1,8 @@
 # How To View This Project: 
 ### You can view this project by cloning the repository and running 'npm start' in the terminal where it will display on your local network. I have not yet gotten this site to deploy. 
 
-# Biggest Challenges Faced: 
-#### 
-
-Implementation and the code logic were the most difficult parts for me. Handling the states and how I wanted my cart to update or delete items was hard. 
-
-This project was a lot better than my first attempt with a React shopping cart project. I actually got everything structured correctly, all my components and context finished, and the code logic was completed and made more sense this time around. 
-
-Also, making sure I had the right import statements for things like the react icons kit, toastify, etc. 
-
-I grew a lot from the challenge of doing this and actually making it work and I feel like I know React and how to use it a lot better now. 
+# Getting Started:
+### Clone this app, run npm install, then run npm start. Make a login/register your login and then login in with that. 
 
 # Features of This Web App: 
 #### 
